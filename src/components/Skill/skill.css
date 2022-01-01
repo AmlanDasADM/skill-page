@@ -287,12 +287,34 @@
 .right-side-modal-body{
     height: 50vh;
 }
-
+.QkaFk {
+    height:fit-content;
+    width: 100%;
+    margin: 0 15px;
+}
 
 
                                             /* responsive codes  */
 
 @media (max-width:850px) {
+    .right-side{
+        width: 88%;
+        margin-left: 4.5rem;
+        background-color: #fff;
+        margin-bottom: 4rem;
+        /* box-shadow: 0px 0px 22px 1px #d4d3d3; */
+   }
+   .QkaFk {
+    height: 0px;
+    width: 100%;
+    margin: 0 0px;
+}
+    .right-side-container{
+        width: 100%;
+        background-color: #fff;
+        height: 100vh;
+    
+    } 
     .skill-container{
        display: flex;
        flex-direction: column-reverse;
@@ -304,6 +326,9 @@
         background-color: #f8f8f8;
         width: 90%;
         overflow:unset ;
+    }
+    .item-img .student-name{
+        margin-left: 1rem;
     }
     .right-side{
         width: 88%;
@@ -320,6 +345,72 @@
         margin: auto;
         text-align: center;
     }
+    .students-review{
+        margin-left: 0rem;
+    }
+    .collapsed-div-preview{
+        margin-bottom: 4rem;
+    }
+    .left-side-aboutUs{
+        margin-bottom: 3rem;
+    }
+    .slidebaritem {
+        background-color: #fff;
+        box-shadow: 0px 0px 22px 1px #d4d3d3;
+        border-radius: 30px;
+        width: 100%;
+    }
+    .item-img{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+   
+    .left-side{
+        margin-left: 0rem;
+    }
+   
+    .left-side-aboutUs{
+        margin-left: 1rem;
+    }
+    .left-side-title{
+        margin-left: 1rem;
+    }
+    .left-side-teacher{
+        margin-left: 1rem;
+    }
+    .course{
+        margin-top: 4rem;
+    }
+    .course-heading{
+        margin-left: 1rem;
+    }
+    .preview-heading{
+        margin-left: 1rem;
+    }
+    .accordion{
+        margin-left: 1rem;
+    }
+    .faq{
+        margin-left: 1rem;
+    }
+    .slidebar{
+        width: 110%;
+        margin-left: 0rem;
+    }
+    .QkaFk {
+        height: fit-content;
+        width: 100%;
+    }
+    .item-para{
+        height: fit-content;
+        width: 100%;
+    }
+    .sc-bdvvtL{
+        height: fit-content;
+        width: 100%;
+        margin: 0 0px;
+    }
 }   
 
 @media (max-width:630px) {
@@ -332,8 +423,17 @@
         align-items: center;
         margin: auto;
         text-align: center;
+        margin-left:3.3rem ;
     }
-  
+  .course-more-details{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    width: 90%;
+    margin: auto;
+    border: 1px solid silver;
+    height: 188px;
+    padding: 1rem;
+  }
     
 }
                                       
@@ -355,6 +455,7 @@
     .right-side-modal-body{
         height: 38vh;
     }
+    
     
 }
                                       
