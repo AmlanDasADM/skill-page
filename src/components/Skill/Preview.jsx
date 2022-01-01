@@ -27,7 +27,7 @@ function Preview()
   
     return (
         <>
-              {/* <div className="preview-content"> */}
+              <div className="preview-content">
                         <div className="preview-heading">
                             <h3>Preview Content</h3>
                         </div>
@@ -363,7 +363,7 @@ function Preview()
                 </LoadMore>
               
             {/* </div> */}
-                    {/* </div>  */}
+                    </div> 
         </>
     )
 }

@@ -324,7 +324,7 @@
     .left-side{
         margin-left: 2rem;
         background-color: #f8f8f8;
-        width: 90%;
+        width: 100%;
         overflow:unset ;
     }
     .item-img .student-name{
@@ -369,7 +369,9 @@
     .left-side{
         margin-left: 0rem;
     }
-   
+   .preview-content{
+    margin-left: 1rem;
+   }
     .left-side-aboutUs{
         margin-left: 1rem;
     }
@@ -391,11 +393,14 @@
     .accordion{
         margin-left: 1rem;
     }
-    .faq{
+    .accordion-item{
         margin-left: 1rem;
     }
+    .faq{
+        margin-left: 0.5rem;
+    }
     .slidebar{
-        width: 110%;
+        width: 99%;
         margin-left: 0rem;
     }
     .QkaFk {
@@ -423,7 +428,7 @@
         align-items: center;
         margin: auto;
         text-align: center;
-        margin-left:3.3rem ;
+        margin-left:2.4rem ;
     }
   .course-more-details{
     display: grid;
