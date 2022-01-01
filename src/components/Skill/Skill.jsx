@@ -274,19 +274,19 @@ function skill()
                                     </div>
                         <div className="course-details">
                             <div className="course-people">
-                            <h6>কোর্সটি করছেন</h6>
+                            <h6>Enrolled</h6>
                             <p>110,035</p></div>
                             <div className="course-time">
-                            <h6>সময় লাগবে</h6>
-                            <p>20 ঘন্টা</p>
+                            <h6>Hours Required  </h6>
+                            <p>20 Hours</p>
                             </div>
                         </div>
                         <div className="course-more-details">
-                            <p>৮৩টি ভিডিও লেকচার</p>
-                            <p>৮৩টি ভিডিও লেকচার</p>
-                            <p>৮৩টি ভিডিও লেকচার</p>
-                            <p>৮৩টি ভিডিও লেকচার</p>
-                            <p>৮৩টি ভিডিও লেকচার</p>
+                            <p> ✅ 83 Video Lectures</p>
+                            <p> ✅ 83 Video Lectures</p>
+                            <p> ✅ 83 Video Lectures</p>
+                            <p> ✅ 83 Video Lectures</p>
+                            <p> ✅ 83 Video Lectures</p>
                         </div>
                     </div>
                 </div>
