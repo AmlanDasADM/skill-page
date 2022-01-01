@@ -240,10 +240,19 @@
     font-size: 0.9rem;
 }
 .fas{
-    color:chocolate;
+    color:rgb(8, 8, 8);
     background-color: beige;
+    border-radius: 50%;
 }
-
+.kRWWHa:hover{
+    background-color: tomato;
+    color: tomato;
+} 
+.kRWWHa:hover:enabled, .kRWWHa:focus:enabled {
+    color: #fff;
+    background-color: tomato;
+    box-shadow: 0 0 2px 0 #333;
+}
 
 
 

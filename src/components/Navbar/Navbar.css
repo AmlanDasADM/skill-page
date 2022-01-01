@@ -9,20 +9,74 @@
 .navbar-nav{
     margin: auto;
 }
-.active-page{
-    border-bottom: 1px solid red;
-    color: brown;
-    font-family: 'Jost', sans-serif;
-}
+
 .nav-item{
-    margin :0.5rem;
     font-size: 20px;
+    font-family: 'Jost', sans-serif;
+    margin-left: 3.5rem;
+    text-align: center;
 
 }
 .navbar-light .navbar-nav .nav-link {
     color: #000000;
+    margin-left: 0.5rem;
+    width: 150%;
+    text-align: center;
+
 }
+.navbar-light .navbar-nav .active-page {
+    color: rgb(255, 255, 255);
+}
+.active-page{
+    color: rgb(202, 14, 155);
+    background-color: tomato;
+    border-radius: 20px;
+    text-align: center;
+
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    background-color: tomato;
+    border-radius: 20px;
+    text-align: center;
+    transition: 1s ease;
+    color: white;
+    text-align: center;
+
+}
+
 .navbar-brand{
     font-size: 40px;
     font-family: 'Jost', sans-serif;
+    color: tomato;
+
+}
+.navbar-light .navbar-brand {
+    color: tomato;
+    font-weight: 900;
+}
+@media (max-width:1000px) {
+    .nav-item{
+        font-size: 20px;
+        font-family: 'Jost', sans-serif;
+        margin: 0rem;
+        text-align: start;
+    }
+    .navbar-light .navbar-nav .nav-link {
+        color: #000000;
+        margin: 0rem;
+        width: 100%;
+        text-align: start;
+
+    }
+    .navbar-light .navbar-nav .nav-link:hover {
+        background-color: tomato;
+        border-radius: 20px;
+        text-align: center;
+        transition: 1s ease;
+        color: white;
+        text-align: start;
+    
+    }
+    
+    
 }
