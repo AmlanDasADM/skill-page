@@ -1,0 +1,360 @@
+
+.skill-container{
+    height: 150vh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,4fr);
+    font-family: 'Jost', sans-serif;
+
+    
+}
+.left-side{
+    width: 100%;
+    height: 150vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scrollbar-color: black;
+    margin-left: 4rem;
+    background-color: #f8f8f8;
+}
+.collapsed-button{
+    font-weight: 900;
+    color: tomato;
+    cursor: pointer;
+}
+.slidebaritem{
+    background-color: #fff;
+    box-shadow: 0px 0px 22px 1px #d4d3d3;
+    border-radius: 30px;
+    width: 96%;
+    margin: auto;
+}
+.students-review{
+    position: unset;
+}
+.left-side::-webkit-scrollbar{
+    display: none;
+}
+.teacher-image img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.teacher-items{
+    display: flex;
+}
+.teacher-para{
+    margin-left: 2rem;
+    margin-top: 0.7rem;
+    font-family: 'Jost', sans-serif;
+
+}
+.accordion{
+    background-color: #f8f8f8;
+    position: unset;
+}
+.accordion-button { 
+    background-color: #f8f8f8;
+    border: none;
+}
+/* .preview-content{
+    height: 80vh;
+    width: 100%;
+    overflow: scroll;
+} */
+/* .preview-content::-webkit-scrollbar{
+    width: 5px;
+    height: 5px;
+}
+.preview-content::-webkit-scrollbar-track{
+    background-color: brown;
+}
+.preview-content::-webkit-scrollbar-thumb{
+    background-color: cadetblue;
+} */
+.modal-content{
+    width: 100%;
+    height: 80%;
+}
+.modal.show .modal-dialog {
+    transform: none;
+    height: 100%;
+}
+.collapsed-div-preview .button{
+    margin: auto;
+    padding-top: 1rem;
+    text-align: center;
+}
+.carousel-control-next{
+    border: 2px solid red;
+}
+.carousel-control-prev{
+    border: 2px solid red;
+}
+.slidebaritem {
+    font-family: 'Jost', sans-serif;
+}
+.item-img img{
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.item-img{
+    display: flex;
+    margin: 0.5rem;
+}
+.item-img .student-name{
+    margin-left: 1rem;
+}
+.student-name h3{
+    font-size: 25px;
+    font-family: 'Jost', sans-serif;
+}
+.student-name p{
+    font-size: 15px;
+    font-family: 'Jost', sans-serif;
+}
+.slidebar{
+    margin-top: 3rem;
+}
+
+.review-title {
+    margin-bottom: 2rem;
+}
+.faq{
+    margin-top: 3rem;
+}
+
+
+
+  /* title font weight  */
+.title-heading h3{
+    font-weight: 700;
+}
+.teacher-heading h3{
+    font-weight: 700;
+}
+.teacher-para h4{
+    font-weight: 300;
+}
+.about-title h3{
+    font-weight: 700;
+}
+.student-name h3{
+    font-weight: 300;
+}
+.faq h3{
+    font-weight: 700;
+}
+.course-heading h3{
+    font-weight: 700;
+}
+.slidebar h3{
+    font-weight: 700;
+}
+.preview-heading h3{
+    font-weight: 700;
+}
+
+/* courses part  */
+.txt{
+    color: tomato;
+}
+
+.skillListWrapper {
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    width: 30%;
+    margin-top: 20px;
+}
+
+.skillDivContainer {
+    width: 270px;
+    border-radius: 10px;
+    background: white;
+    box-shadow: 0px 0px 12px 3px #ededed;
+    margin: 10px;
+}
+
+.thumb img {
+    width: 241px;
+    height: 248px;
+    border-radius: 10px;
+}
+
+.thumb {
+    width: 90%;
+    margin: 10px auto;
+    margin-top: 15px;
+}
+
+.pricing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.price p {
+    color: lime;
+    font-weight: bold;
+    font-size: 20px;
+}
+.logo img{
+  height: 77px;
+  width: 320px;
+  margin-top: 7px;
+}
+.v-link{
+  color: lime;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.time {
+    background: #ff00006e;
+    margin-right: 10px;
+    padding: 5px 7px;
+    border-radius: 14px;
+    color: white;
+}
+
+.time i {
+    margin-right: 5px;
+}
+
+.price {
+    margin-left: 10px;
+}
+.txt {
+    margin: auto;
+    width: 90%;
+    margin-bottom: 10px;
+}
+
+.txt h3 {
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+.txt p {
+    font-size: 0.9rem;
+}
+.fas{
+    color:chocolate;
+    background-color: beige;
+}
+
+
+
+
+
+                                          /* right side part  */
+ .right-side{
+     width: 88%;
+     margin-left: 4.5rem;
+     background-color: #fff;
+     /* box-shadow: 0px 0px 22px 1px #d4d3d3; */
+}
+.right-side-container{
+    width: 100%;
+    background-color: #fff;
+    height: 120vh;
+
+}    
+.media-player{
+    margin: 1rem;
+}
+.course-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.course-people{
+    margin: 1rem;
+}
+.course-time{
+    margin: 1rem;
+}
+.course-more-details{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+    width: 90%;
+    margin: auto;
+    border: 1px solid silver;
+    height: 150px;
+    padding: 1rem;
+}
+.right-side-modal-body{
+    height: 50vh;
+}
+
+
+
+                                            /* responsive codes  */
+
+@media (max-width:850px) {
+    .skill-container{
+       display: flex;
+       flex-direction: column-reverse;
+       height: unset;
+       
+    }
+    .left-side{
+        margin-left: 2rem;
+        background-color: #f8f8f8;
+        width: 90%;
+        overflow:unset ;
+    }
+    .right-side{
+        width: 88%;
+        margin-left: 2.5rem;
+        /* box-shadow: 0px 0px 22px 1px #d4d3d3; */
+    }   
+    .skillListWrapper {
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+        width: 78%;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        text-align: center;
+    }
+}   
+
+@media (max-width:630px) {
+    .skillListWrapper {
+        display: grid;
+        grid-template-columns: repeat(1,2fr);
+        width: 78%;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        text-align: center;
+    }
+  
+    
+}
+                                      
+@media (max-width:540px) {
+    
+   
+    .right-side{
+        width: 88%;
+        margin-left: 1.5rem;
+    }  
+    .react-player{
+        height: 340px;
+        width: 400px;
+    }
+    .media-player div div {
+        height: 360px;
+        width: 445px;
+    }
+    .right-side-modal-body{
+        height: 38vh;
+    }
+    
+}
+                                      

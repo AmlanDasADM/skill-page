@@ -1,0 +1,28 @@
+
+.bla{
+    position: sticky;
+    top: 0%;
+    bottom: 0%;
+    background-color: #fff;
+    margin-bottom: 2rem;
+}
+.navbar-nav{
+    margin: auto;
+}
+.active-page{
+    border-bottom: 1px solid red;
+    color: brown;
+    font-family: 'Jost', sans-serif;
+}
+.nav-item{
+    margin :0.5rem;
+    font-size: 20px;
+
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #000000;
+}
+.navbar-brand{
+    font-size: 40px;
+    font-family: 'Jost', sans-serif;
+}

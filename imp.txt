@@ -1,2 +1,43 @@
 https://youtu.be/kcqwE_8bynE // button
 react-player // copy link  adress 
+.collapsed-button {
+    color: black;
+    border-radius: 5px;
+   margin: auto;
+    transition: 2s ease-in;
+
+}
+.collapsed-button-div{
+    width: 100px;
+    background-color: cadetblue;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 2s ease-in;
+}
+.collapsed-div{
+    display: flex;
+} 
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">           
+                        <li class="nav-item ms-2" >
+                            <NavLink exact activeClassName='active-page ' className="nav-link" to="/home">Home</NavLink>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <NavLink exact activeClassName='active-page ' className="nav-link" to="/about">about</NavLink>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <NavLink exact activeClassName='active-page ' className="nav-link" to="/">skill</NavLink>
+                        </li>
+                        <li class="nav-item ms-3">
+                            <NavLink exact activeClassName='active-page ' className="nav-link" to="/contact">contact</NavLink>
+                        </li>
+                    </ul>
+                      
+                     
+                        {/* <div class="form-check form-switch ms-3" onClick={props.toggleMode}>
+                            <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault"/>
+                            <label class="form-check-label" for="flexSwitchCheckDefault"  style={{ color: props.mode === "light"? "#0D0D0D" : "white" , cursor:"pointer"}}>{props.mode === "light"? "enable dark mode" : "Enable white mode" }</label>
+                        </div> */}
+                    </div>
