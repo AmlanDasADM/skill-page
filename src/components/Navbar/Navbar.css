@@ -3,8 +3,13 @@
     position: sticky;
     top: 0%;
     bottom: 0%;
+    right: 0%;
+    left: 0%;
     background-color: #fff;
     margin-bottom: 2rem;
+}
+.navbar{
+    position: relative;
 }
 .navbar-nav{
     margin: auto;
