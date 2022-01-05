@@ -1,12 +1,15 @@
 
 .skill-container{
-    height: 150vh;
+    height: 1150vh;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(2,4fr);
     font-family: 'Jost', sans-serif;
 
     
+}
+.accordion-button{
+    position: unset;
 }
 .left-side{
     width: 100%;

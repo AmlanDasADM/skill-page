@@ -9,7 +9,7 @@ import Skill from './components/Skill/Skill';
 function App()
 {
  useEffect(() => {
-   ReactGa.initialize('G-QRYFM9K29Q')
+   ReactGa.initialize('UA-216352185-1')
    ReactGa.pageview('/')
  }, [])
    

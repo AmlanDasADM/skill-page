@@ -429,3 +429,73 @@ function Preview()
 export default Preview
 
 G-QRYFM9K29Q
+         <div className="students-review">
+                        <div className="slidebar">
+                        <h3 style={{ textAlign: "center" }} className='review-title'>What students are saying</h3>
+                            <div className="slidebaritem">
+                                <Carousel breakPoints={bp}>
+                                    <Item>
+                                        <div className="item-img">
+                                        <img src={cartoo3} alt="" srcset="" /> 
+                                            <div className="student-name">
+                                                <h3>amlan das</h3>
+                                                <p>jalalabad cantonment public school and collage</p>
+                                            </div>
+                                        </div>
+                                        <div className="item-para">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad corrupti minus, perferendis voluptatum temporibus ducimus facilis molestias obcaecati quis autem cupiditate nisi distinctio consequatur ipsa dolorem qui eum, asperiores doloremque commodi perspiciatis, quos nobis maiores vero! Consectetur rerum distinctio aliquam fuga, reprehenderit possimus. Similique necessitatibus optio cupiditate aliquam est nam.</p>
+                                        </div>
+                                    </Item>
+                                <Item>   <div className="item-img">
+                                        <img src={cartoon2} alt="" srcset="" /> 
+                                            <div className="student-name">
+                                                <h3>amlan das</h3>
+                                                <p>jalalabad cantonment public school and collage</p>
+                                            </div>
+                                        </div>
+                                        <div className="item-para">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad corrupti minus, perferendis voluptatum temporibus ducimus facilis molestias obcaecati quis autem cupiditate nisi distinctio consequatur ipsa dolorem qui eum, asperiores doloremque commodi perspiciatis, quos nobis maiores vero! Consectetur rerum distinctio aliquam fuga, reprehenderit possimus. Similique necessitatibus optio cupiditate aliquam est nam.</p>
+                                        </div>
+                                </Item>
+                                <Item>   <div className="item-img">
+                                        <img src={cartoo3} alt="" srcset="" /> 
+                                            <div className="student-name">
+                                                <h3>amlan das</h3>
+                                                <p>jalalabad cantonment public school and collage</p>
+                                            </div>
+                                        </div>
+                                        <div className="item-para">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad corrupti minus, perferendis voluptatum temporibus ducimus facilis molestias obcaecati quis autem cupiditate nisi distinctio consequatur ipsa dolorem qui eum, asperiores doloremque commodi perspiciatis, quos nobis maiores vero! Consectetur rerum distinctio aliquam fuga, reprehenderit possimus. Similique necessitatibus optio cupiditate aliquam est nam.</p>
+                                        </div>
+                                </Item>
+                                <Item>   <div className="item-img">
+                                        <img src={amlan} alt="" srcset="" /> 
+                                            <div className="student-name">
+                                                <h3>amlan das</h3>
+                                                <p>jalalabad cantonment public school and collage</p>
+                                            </div>
+                                        </div>
+                                        <div className="item-para">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad corrupti minus, perferendis voluptatum temporibus ducimus facilis molestias obcaecati quis autem cupiditate nisi distinctio consequatur ipsa dolorem qui eum, asperiores doloremque commodi perspiciatis, quos nobis maiores vero! Consectetur rerum distinctio aliquam fuga, reprehenderit possimus. Similique necessitatibus optio cupiditate aliquam est nam.</p>
+                                        </div>
+                                </Item>
+                                <Item>
+                                    <div className="item-img">
+                                        <img src={amlan} alt="" srcset="" /> 
+                                            <div className="student-name">
+                                                <h3>amlan das</h3>
+                                                <p>jalalabad cantonment public school and collage</p>
+                                            </div>
+                                        </div>
+                                        <div className="item-para">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad corrupti minus, perferendis voluptatum temporibus ducimus facilis molestias obcaecati quis autem cupiditate nisi distinctio consequatur ipsa dolorem qui eum, asperiores doloremque commodi perspiciatis, quos nobis maiores vero! Consectetur rerum distinctio aliquam fuga, reprehenderit possimus. Similique necessitatibus optio cupiditate aliquam est nam.</p>
+                                        </div>
+                                </Item>
+                                </Carousel>
+                             </div>   
+                        </div>
+                    </div>
+
+
+reCaptcha
+ https://youtu.be/vrbyaOoZ-4Q

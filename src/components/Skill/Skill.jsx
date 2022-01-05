@@ -1,13 +1,7 @@
 import React, {useState }from 'react'
 import "./skill.css"
-import amlan from "../../images/amlan2.jpg"
 import cartoon from "../../images/cartoon.png"
-import cartoon2 from "../../images/crt2.png"
-import cartoo3 from "../../images/crt3.jpg"
-import cartoon4 from "../../images/crt4.jpg"
 import Preview from './Preview'
-import Item from "./Item";
-import Carousel from "react-elastic-carousel";
 import ReactPlayer from 'react-player'
 
 
@@ -34,17 +28,13 @@ function ReadMore({ children, maxcharacterCount = 100 })
 
 
 function skill()
+
 {
-    const bp = [
-        { width: 1, itemsToShow: 1 },
-        { width: 550, itemsToShow: 2 },
-        { width: 768, itemsToShow: 3 },
-        { width: 1200, itemsToShow: 4 },
-      ];
-  
+
     return (
         <>
-            <div className="skill-container ">
+
+            <div className="skill-container">
                 <div className="left-side">
                     <div className="left-side-title">
                         <div className="title-heading">
@@ -86,72 +76,8 @@ function skill()
 
                     {/* priview content  */}
                     <Preview />
-                    <div className="students-review">
-                        <div className="slidebar">
-                        <h3 style={{ textAlign: "center" }} className='review-title'>What students are saying</h3>
-                            <div className="slidebaritem">
-                                <Carousel breakPoints={bp}>
-                                    <Item>
-                                        <div className="item-img">
-                                        <img src={cartoo3} alt="" srcset="" /> 
-                                            <div className="student-name">
-                                                <h3>amlan das</h3>
-                                                <p>jalalabad cantonment public school and collage</p>
-                                            </div>
-                                        </div>
-                                        <div className="item-para">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad corrupti minus, perferendis voluptatum temporibus ducimus facilis molestias obcaecati quis autem cupiditate nisi distinctio consequatur ipsa dolorem qui eum, asperiores doloremque commodi perspiciatis, quos nobis maiores vero! Consectetur rerum distinctio aliquam fuga, reprehenderit possimus. Similique necessitatibus optio cupiditate aliquam est nam.</p>
-                                        </div>
-                                    </Item>
-                                <Item>   <div className="item-img">
-                                        <img src={cartoon2} alt="" srcset="" /> 
-                                            <div className="student-name">
-                                                <h3>amlan das</h3>
-                                                <p>jalalabad cantonment public school and collage</p>
-                                            </div>
-                                        </div>
-                                        <div className="item-para">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad corrupti minus, perferendis voluptatum temporibus ducimus facilis molestias obcaecati quis autem cupiditate nisi distinctio consequatur ipsa dolorem qui eum, asperiores doloremque commodi perspiciatis, quos nobis maiores vero! Consectetur rerum distinctio aliquam fuga, reprehenderit possimus. Similique necessitatibus optio cupiditate aliquam est nam.</p>
-                                        </div>
-                                </Item>
-                                <Item>   <div className="item-img">
-                                        <img src={cartoo3} alt="" srcset="" /> 
-                                            <div className="student-name">
-                                                <h3>amlan das</h3>
-                                                <p>jalalabad cantonment public school and collage</p>
-                                            </div>
-                                        </div>
-                                        <div className="item-para">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad corrupti minus, perferendis voluptatum temporibus ducimus facilis molestias obcaecati quis autem cupiditate nisi distinctio consequatur ipsa dolorem qui eum, asperiores doloremque commodi perspiciatis, quos nobis maiores vero! Consectetur rerum distinctio aliquam fuga, reprehenderit possimus. Similique necessitatibus optio cupiditate aliquam est nam.</p>
-                                        </div>
-                                </Item>
-                                <Item>   <div className="item-img">
-                                        <img src={amlan} alt="" srcset="" /> 
-                                            <div className="student-name">
-                                                <h3>amlan das</h3>
-                                                <p>jalalabad cantonment public school and collage</p>
-                                            </div>
-                                        </div>
-                                        <div className="item-para">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad corrupti minus, perferendis voluptatum temporibus ducimus facilis molestias obcaecati quis autem cupiditate nisi distinctio consequatur ipsa dolorem qui eum, asperiores doloremque commodi perspiciatis, quos nobis maiores vero! Consectetur rerum distinctio aliquam fuga, reprehenderit possimus. Similique necessitatibus optio cupiditate aliquam est nam.</p>
-                                        </div>
-                                </Item>
-                                <Item>
-                                    <div className="item-img">
-                                        <img src={amlan} alt="" srcset="" /> 
-                                            <div className="student-name">
-                                                <h3>amlan das</h3>
-                                                <p>jalalabad cantonment public school and collage</p>
-                                            </div>
-                                        </div>
-                                        <div className="item-para">
-                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad corrupti minus, perferendis voluptatum temporibus ducimus facilis molestias obcaecati quis autem cupiditate nisi distinctio consequatur ipsa dolorem qui eum, asperiores doloremque commodi perspiciatis, quos nobis maiores vero! Consectetur rerum distinctio aliquam fuga, reprehenderit possimus. Similique necessitatibus optio cupiditate aliquam est nam.</p>
-                                        </div>
-                                </Item>
-                                </Carousel>
-                             </div>   
-                        </div>
-                    </div>
+
+           
 
                     {/* FAQ  */}
                     <div className="faq">
@@ -168,12 +94,13 @@ function skill()
                             </h2>
                             <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
                             <div class="accordion-body">"কোর্সটি কিনুন" বাটনে ক্লিক করুন।
-আপনি যেই ফোন নম্বর বা ইমেইল দিয়ে কোর্সটি কিনতে চান সেটি প্রদান করে “এগিয়ে যান” বাটনে ক্লিক করুন।
-“প্রশ্ন-চিহ্ন” আইকনে ক্লিক করে পেমেন্ট করার নিয়মটি জেনে নিন।
-আপনার মোবাইল নাম্বার বা ইমেইল দিয়ে “কোর্সটি কিনুন” অপশনে ক্লিক করুন। 
-পেমেন্ট মেথড নির্বাচন করুন।
-আপনাকে পেমেন্ট সেকশনে নিয়ে যাওয়া হবে যেখানে আপনার পেমেন্ট করতে পারবেন।
-পেমেন্ট সম্পন্ন করার পর আপনার একাউন্টে “আপনার কোর্সসমূহ” সেকশনে কোর্সটি চলে আসবে।</div>
+                                আপনি যেই ফোন নম্বর বা ইমেইল দিয়ে কোর্সটি কিনতে চান সেটি প্রদান করে “এগিয়ে যান” বাটনে ক্লিক করুন।
+                                “প্রশ্ন-চিহ্ন” আইকনে ক্লিক করে পেমেন্ট করার নিয়মটি জেনে নিন।
+                                আপনার মোবাইল নাম্বার বা ইমেইল দিয়ে “কোর্সটি কিনুন” অপশনে ক্লিক করুন। 
+                                পেমেন্ট মেথড নির্বাচন করুন।
+                                আপনাকে পেমেন্ট সেকশনে নিয়ে যাওয়া হবে যেখানে আপনার পেমেন্ট করতে পারবেন।
+                                            পেমেন্ট সম্পন্ন করার পর আপনার একাউন্টে “আপনার কোর্সসমূহ” সেকশনে কোর্সটি চলে আসবে।
+                                </div>
                             </div>
                         </div>
                         <div class="accordion-item">
@@ -201,70 +128,53 @@ function skill()
                         </div>
                         </div>
                     </div>
-                    {/* recomended courses  */}
-                    <div className="course">
-                        <div className="course-body">
-                            <div className="course-heading">
-                                <h3>Recommended courses for you</h3>
+                     {/* about our course   */}
+                     <div className="about-our-course">
+                        <div className="our-course-heading">
+                            <h3> About Our Course </h3>
+                        </div>    
+                        <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                Accordion Item #1
+                            </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body">
+                                <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
                             </div>
-        <div class="skillListWrapper">
-
-                <div class="skillDivContainer">
-                <a href="#">
-              <div class="thumb"><img src={cartoon}/></div>
-                <div class="txt">
-                   <a href="https://youtube.com/playlist?list=PLepBPQGnIXKqjlVcAq2G8MWi6OZVkybyx"> <h3>Book Review</h3></a>
-                    <a href="https://youtube.com/playlist?list=PLepBPQGnIXKqjlVcAq2G8MWi6OZVkybyx"> <p>Midhad Ahmed</p></a>
-                </div>
-                <div class="pricing">
-                    <div class="price"><p><a class="v-link"href="https://youtube.com/playlist?list=PLepBPQGnIXKqjlVcAq2G8MWi6OZVkybyx">Visit</a></p></div>
-                    <div class="time"><i class="far fa-clock"></i><span>20 hr</span></div>
-                </div>
-                </a>
-            </div>
-            <div class="skillDivContainer">
-                <a href="#">
-                                    <div class="thumb"><img src={ cartoon4}/></div>
-                <div class="txt">
-                   <a href="https://youtube.com/playlist?list=PLepBPQGnIXKoqOEbeXKJ9Z7ii6jlOj6Nj"> <h3>Basic IT Hacks   </h3></a>
-                    <a href="https://youtube.com/playlist?list=PLepBPQGnIXKoqOEbeXKJ9Z7ii6jlOj6Nj"> <p>Sheikh Abir Ali</p></a>
-                </div>
-                <div class="pricing">
-                    <div class="price"><p><a class="v-link"href="https://youtube.com/playlist?list=PLepBPQGnIXKoqOEbeXKJ9Z7ii6jlOj6Nj">Visit</a></p></div>
-                    <div class="time"><i class="far fa-clock"></i><span>20 hr</span></div>
-                </div>
-                </a>
-            </div>
-            <div class="skillDivContainer">
-                <a href="#">
-                                    <div class="thumb"><img src={cartoon2}/></div>
-                <div class="txt">
-                   <a href="https://youtube.com/playlist?list=PLepBPQGnIXKrRaz9GtED7kZOG9zPcgYlT"> <h3>HSC Physics</h3></a>
-                    <a href="https://youtube.com/playlist?list=PLepBPQGnIXKrRaz9GtED7kZOG9zPcgYlT"> <p>Faysal Ahmed</p></a>
-                </div>
-                <div class="pricing">
-                    <div class="price"><p><a class="v-link"href="https://youtube.com/playlist?list=PLepBPQGnIXKrRaz9GtED7kZOG9zPcgYlT">Visit</a></p></div>
-                    <div class="time"><i class="far fa-clock"></i><span>20 hr</span></div>
-                </div>
-                </a>
-            </div>
-            <div class="skillDivContainer">
-                <a href="#">
-                                    <div class="thumb"><img src={ cartoo3 }/></div>
-                <div class="txt">
-                   <a href="https://youtube.com/playlist?list=PLepBPQGnIXKp5EMGiXYJSwRQDlgpLDttQ"> <h3>Bangladeshi Legends</h3></a>
-                    <a href="https://youtube.com/playlist?list=PLepBPQGnIXKp5EMGiXYJSwRQDlgpLDttQ"> <p>Creative School Members</p></a>
-                </div>
-                <div class="pricing">
-                    <div class="price"><p><a class="v-link"href="https://youtube.com/playlist?list=PLepBPQGnIXKp5EMGiXYJSwRQDlgpLDttQ">Visit</a></p></div>
-                    <div class="time"><i class="far fa-clock"></i><span>20 hr</span></div>
-                </div>
-                </a>
-            </div>
-            </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                Accordion Item #2
+                            </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body">
+                                <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                Accordion Item #3
+                            </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body">
+                                <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                            </div>
+                            </div>
+                        </div>
+                        </div>
                         </div>
                     </div>
-                </div>
+                
+
 
                 {/* right side  */}
                 <div className="right-side">
@@ -291,8 +201,12 @@ function skill()
                     </div>
                 </div>
                 </div>
+                
+
 
         </>
+            
+
     )
 }
 
