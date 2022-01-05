@@ -3,6 +3,8 @@ import "./skill.css"
 import cartoon from "../../images/cartoon.png"
 import Preview from './Preview'
 import ReactPlayer from 'react-player'
+import Contact from './Contact'
+import Contact2 from './Contact2'
 
 
 
@@ -171,7 +173,9 @@ function skill()
                             </div>
                         </div>
                         </div>
-                        </div>
+                    </div>
+                <Contact2 />
+                    
                     </div>
                 
 
@@ -198,8 +202,12 @@ function skill()
                             <p> ✅ 83 Video Lectures</p>
                             <p> ✅ 83 Video Lectures</p>
                         </div>
+                    <Contact />
                     </div>
+
                 </div>
+
+
                 </div>
                 
 

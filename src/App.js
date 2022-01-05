@@ -1,5 +1,5 @@
 import './App.css';
-import { useState, useEffect } from 'react';
+import { useEffect } from 'react';
 import { BrowserRouter as Router ,  Route, Switch } from "react-router-dom";
 import Navbar from './components/Navbar/Navbar';
 import Skill from './components/Skill/Skill';
