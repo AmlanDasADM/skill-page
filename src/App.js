@@ -1,16 +1,15 @@
 import './App.css';
 import { useState, useEffect } from 'react';
-import ReactGa from "react-ga"
 import { BrowserRouter as Router ,  Route, Switch } from "react-router-dom";
 import Navbar from './components/Navbar/Navbar';
 import Skill from './components/Skill/Skill';
-
+import ReactGA from 'react-ga';
 
 function App()
 {
  useEffect(() => {
-   ReactGa.initialize('UA-216352185-1')
-   ReactGa.pageview('/')
+  ReactGA.initialize('UA-216352185-1');
+  ReactGA.pageview(window.location.pathname + window.location.search);
  }, [])
    
 
