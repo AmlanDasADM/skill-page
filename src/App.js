@@ -4,6 +4,7 @@ import { BrowserRouter as Router ,  Route, Switch } from "react-router-dom";
 import Navbar from './components/Navbar/Navbar';
 import Skill from './components/Skill/Skill';
 import ReactGA from 'react-ga';
+import FormData23 from './admin-panel/FormData';
 
 function App()
 {
@@ -24,6 +25,9 @@ function App()
       <Switch>
         <Route exact path="/">
           <Skill  />
+        </Route> 
+        <Route exact path="/get">
+          <FormData23  />
         </Route> 
         </Switch>
       </Router>    

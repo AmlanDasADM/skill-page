@@ -5,6 +5,7 @@ import Preview from './Preview'
 import ReactPlayer from 'react-player'
 import Contact from './Contact'
 import Contact2 from './Contact2'
+import { BrowserRouter as Router ,  Route, Switch } from "react-router-dom";
 
 
 
@@ -174,8 +175,7 @@ function skill()
                         </div>
                         </div>
                     </div>
-                <Contact2 />
-                    
+                        <Contact2  />
                     </div>
                 
 
@@ -202,7 +202,7 @@ function skill()
                             <p> ✅ 83 Video Lectures</p>
                             <p> ✅ 83 Video Lectures</p>
                         </div>
-                    <Contact />
+                        <Contact />
                     </div>
 
                 </div>

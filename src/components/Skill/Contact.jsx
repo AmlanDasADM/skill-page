@@ -1,10 +1,52 @@
-import React  from 'react';
+import React , {useState} from 'react';
 import {EmailShareButton,FacebookShareButton , TwitterShareButton } from 'react-share'
 import {FacebookIcon,TwitterIcon,EmailIcon} from 'react-share'
+import axios from 'axios'
 
 
 function Contact()
+
 {
+    const [name, setName] = useState('')
+    const [email, setEmail] = useState('')
+    const [description, setDescription] = useState('')
+    const [message, setMessage] = useState('')
+    
+    // onChange function
+
+    const nameOnChanged = (e) =>
+    {
+        setName(e.target.value)
+    }
+
+    const emailOnChanged = (e) =>
+    {
+        setEmail(e.target.value)
+    }
+
+    const descOnChanged = (e) =>
+    {
+        setDescription(e.target.value)
+    }
+  
+    //   onClick function
+
+    const handleOnClicked = (e) => {
+        e.preventDefault()
+
+        const form = {
+            name,
+            email,
+            description
+        }
+
+        setName("");
+        setEmail("");
+        setDescription("");
+        axios.post('/post', form)
+            .then(res =>setMessage(res.data))
+            .catch(err => console.log(err))
+}
     return (
     <div className='contact-section-one' id='contact-section' >
              <div className="heading">
@@ -37,20 +79,20 @@ function Contact()
 
 
 
-  <form id="form" >
+  <form id="form" encType="multipart/form-data"  >
       <h2 >Have Something To Write?</h2>
-            {/* <p >{ message}</p> */}
+                    <p style={{ color:"green"}}>{ message}</p>
       <label for="text" >Name:</label>
-      <input type="text"name="name" id="text" />
+      <input type="text"name="name" id="text" onChange={ nameOnChanged} value={name}/>
 
 
       <label for="email">Email:</label>
-      <input type="email" name="email" id="email" />
+      <input type="email" name="email" id="email" onChange={ emailOnChanged} value={email}/>
 
 
       <label for="textarea">Your Message:</label> 
-      <textarea name= "message" id="textarea" cols="30" rows="5"></textarea>
-      <button class="btn-danger mt-4">Send</button>
+      <textarea name= "message" id="textarea" cols="30" rows="5" onChange={ descOnChanged} value={description}></textarea>
+      <button type='submit' class="btn-danger mt-4" onClick={handleOnClicked}>Send</button>
   </form>
 </div>
 </div>
